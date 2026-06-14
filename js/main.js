@@ -94,3 +94,19 @@ if(themeBtn){
     });
 
 }
+
+const menuBtn =
+document.getElementById("menu-btn");
+
+const nav =
+document.querySelector("nav");
+
+if(menuBtn){
+
+    menuBtn.addEventListener("click",()=>{
+
+        nav.classList.toggle("active");
+
+    });
+
+}
