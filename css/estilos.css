@@ -1066,3 +1066,17 @@ body.light{
     }
 
 }
+
+@media (max-width:768px){
+
+    #theme-btn{
+
+        width:40px;
+
+        height:40px;
+
+        font-size:1rem;
+
+    }
+
+}
